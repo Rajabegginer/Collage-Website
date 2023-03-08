@@ -1,0 +1,127 @@
+/* body {
+    background-color: #131316;
+    color: #ffffff;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    display: grid;
+    place-items: center;
+    align-items: center;
+    min-height: 100vh;
+} */
+
+/* .cards {
+    display: flex;
+}
+
+.cards .card {
+    width: 200px;
+    height: 200px;
+    background-color: aliceblue;
+    color: dodgerblue;
+    margin:0 8px;
+    border-radius: 12px;
+}
+
+.card:nth-child(2) {
+transition-delay: 200ms;
+}
+.card:nth-child(3) {
+    transition-delay: 400ms;
+}
+.card:nth-child(4) {
+    transition-delay: 600ms;
+} */
+
+@media screen and (min-width:768px) {
+
+    .hidden-right {
+        transform: translateX(100%) !important;
+    }
+    
+    .hidden-top {
+        transform: translateY(-100%) !important;
+    }
+    .hidden-bottom {
+        transform: translateY(100%) !important;
+    }
+    
+
+.h-card2 {
+    transition-delay: 200ms !important;
+}
+.h-card3 {
+    transition-delay: 400ms !important;
+}
+
+.h-sec3-text {
+    
+    transition-delay: 400ms !important;
+}
+
+.h-sec3-img {
+    transition-delay: 400ms !important;
+}
+
+
+
+.sec4-img {
+    transition-delay: 400ms !important;
+}
+
+.hsec4-info {
+    transition-delay: 400ms !important;
+}
+
+.sec5-info {
+    transition-delay: 200ms !important;
+}
+
+.t-card:nth-child(2) {
+    transition-delay: 200ms !important;
+}
+.t-card:nth-child(3) {
+transition-delay: 400ms !important;
+}
+.t-card:nth-child(4) {
+transition-delay: 600ms !important;
+}
+.t-card:nth-child(6) {
+transition-delay: 200ms !important;
+}
+.t-card:nth-child(7) {
+transition-delay: 400ms !important;
+}
+.t-card:nth-child(8) {
+transition-delay: 600ms !important;
+}
+
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0) !important;
+    transform: translateY(0) !important;
+}
+
+
+}
+
+
+
+
+@media(prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
